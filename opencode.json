@@ -163,29 +163,6 @@
           }
         }
       }
-    },
-    "aiotserver": {
-      "npm": "@ai-sdk/openai-compatible",
-      "name": "AIoT Server",
-      "options": {
-        "baseURL": "http://54.238.45.208:3000/v1",
-        "apiKey": "sk-TSoeCexs9Q1jx1rkw46DEBZNdduhlgu0w6vU36ysm2E6HK6V"
-      },
-      "models": {
-        "claude-sonnet-4-6": {
-          "name": "claude-sonnet-4-6",
-          "provider": {
-            "npm": "@ai-sdk/anthropic"
-          }
-        },
-        "gpt-5.3-codex": {
-          "name": "gpt-5.3-codex",
-          "limit": {
-            "context": 400000,
-            "output": 128000
-          }
-        }
-      }
     }
   }
 }
