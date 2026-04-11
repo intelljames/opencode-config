@@ -142,23 +142,46 @@
         },
         "claude-sonnet-4.6-kiro": {
           "name": "claude-sonnet-4.6-kiro",
+          "reasoning": true,
           "limit": {
             "context": 1000000,
             "output": 128000
+          },
+          "variants": {
+            "low": {
+              "thinkingConfig": { "thinkingBudget": 8192 },
+              "reasoning": { "max_tokens": 8192 }
+            },
+            "medium": {
+              "thinkingConfig": { "thinkingBudget": 16384 },
+              "reasoning": { "max_tokens": 16384 }
+            },
+            "max": {
+              "thinkingConfig": { "thinkingBudget": 32768 },
+              "reasoning": { "max_tokens": 32768 }
+            }
           }
         },
         "claude-opus-4.6-kiro": {
           "name": "claude-opus-4.6-kiro",
+          "reasoning": true,
           "limit": {
             "context": 1000000,
             "output": 128000
-          }
-        },
-        "claude-sonnet-4.5-kiro": {
-          "name": "claude-sonnet-4.5-kiro",
-          "limit": {
-            "context": 200000,
-            "output": 32768
+          },
+          "variants": {
+            "low": {
+              "thinkingConfig": { "thinkingBudget": 8192 },
+              "reasoning": { "max_tokens": 8192 }
+            },
+            "medium": {
+              "thinkingConfig": { "thinkingBudget": 16384 },
+              "reasoning": { "max_tokens": 16384 }
+            },
+            "max": {
+              "thinkingConfig": { "thinkingBudget": 32768 },
+              "reasoning": { "max_tokens": 32768 }
+            }
           }
         },
         "qwen3.5-27b-128": {
