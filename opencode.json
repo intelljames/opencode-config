@@ -98,9 +98,6 @@
           "limit": {
             "context": 1000000,
             "output": 128000
-          },
-          "provider": {
-            "npm": "@ai-sdk/anthropic"
           }
         },
         "claude-sonnet-4.6-poe": {
@@ -108,9 +105,6 @@
           "limit": {
             "context": 1000000,
             "output": 128000
-          },
-          "provider": {
-            "npm": "@ai-sdk/anthropic"
           }
         },
         "gemini-3.1-pro-poe": {
@@ -152,9 +146,6 @@
             "context": 1000000,
             "output": 128000
           },
-          "provider": {
-            "npm": "@ai-sdk/anthropic"
-          },
           "variants": {
             "low": {
               "thinkingConfig": { "thinkingBudget": 8192 },
@@ -176,9 +167,6 @@
           "limit": {
             "context": 1000000,
             "output": 128000
-          },
-          "provider": {
-            "npm": "@ai-sdk/anthropic"
           },
           "variants": {
             "low": {
