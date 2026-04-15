@@ -9,7 +9,7 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "JamesAI",
       "options": {
-        "baseURL": "http://127.0.0.1:4000/v1",
+        "baseURL": "http://100.70.52.107:4000/v1",
         "apiKey": "sk-1234"
       },
       "models": {
@@ -99,6 +99,9 @@
           "limit": {
             "context": 1000000,
             "output": 128000
+          },
+          "provider": {
+            "npm": "@ai-sdk/anthropic"
           }
         },
         "claude-sonnet-4.6-poe": {
@@ -106,6 +109,9 @@
           "limit": {
             "context": 1000000,
             "output": 128000
+          },
+          "provider": {
+            "npm": "@ai-sdk/anthropic"
           }
         },
         "gemini-3.1-pro-poe": {
@@ -147,6 +153,9 @@
             "context": 1000000,
             "output": 128000
           },
+          "provider": {
+            "npm": "@ai-sdk/anthropic"
+          },
           "variants": {
             "low": {
               "thinkingConfig": { "thinkingBudget": 8192 },
@@ -168,6 +177,9 @@
           "limit": {
             "context": 1000000,
             "output": 128000
+          },
+          "provider": {
+            "npm": "@ai-sdk/anthropic"
           },
           "variants": {
             "low": {
